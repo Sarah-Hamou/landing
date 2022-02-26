@@ -1,0 +1,37 @@
+div[class*="flexbox"] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  box-shadow: 3px 3px 5px gray;
+  border-radius: 7px;
+}
+
+div[class*="photo"] {
+  width: 100px;
+  height: 100px;
+  /* background: gray; */
+  border-radius: 7px;
+}
+
+.photo-1 {
+  background: url("../../images/bijoux-1.jpg");
+  background-size: cover;
+  background-position-x: 56%;
+}
+
+.photo-2 {
+  background: url("../../images/bijoux-2.jpg");
+  background-size: cover;
+  background-position-y: 40%;
+}
+
+.photo-3 {
+  background: url("../../images/bijoux-3.jpg");
+  background-size: 170%;
+  background-position: 55% 50%;
+}
+
+div[class*="flexbox"] * {
+  margin: 15px;
+}

@@ -1,0 +1,16 @@
+.btn-blue {
+  background-color: #b393ff;
+  border: 3px solid #b393ff;
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn-blue:hover {
+  background: #eee7fd;
+  color: black;
+}
+
+div[class*="flexbox"] .btn-blue {
+  height: min-content;
+}
